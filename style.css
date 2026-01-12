@@ -224,14 +224,24 @@ section {
 }
 
 .project-info-container {
+  text-align: start;
   padding: 1rem 2rem;
   margin: 0;
+}
+
+.project-info-container > h2,
+.project-info-container > h3 {
+  text-align: start;
 }
 
 .project-info-container > .btn {
   width: 100%;
   background-color: rgb(245, 182, 11);
   text-align: center;
+}
+
+.project-info-container > .btn:hover {
+  background-color: rgb(220, 145, 11);
 }
 
 .contact-section .container {
@@ -313,8 +323,8 @@ textarea {
 }
 
 .social-media-icon > a > svg {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.3rem;
+  height: 1.3rem;
   display: block;
   fill: white;
 }
@@ -334,4 +344,9 @@ footer {
 
 footer .container {
   padding: 2rem 1rem;
+}
+
+@media (min-width: 900px) {
+  .container {
+  }
 }
