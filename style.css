@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1300px;
   margin-inline: auto;
   padding: 3rem 2rem;
 }
@@ -38,6 +38,10 @@ h1,
 h2,
 h3 {
   text-align: center;
+}
+
+h3 {
+  line-height: 1.6;
 }
 
 header h2 {
@@ -363,5 +367,25 @@ footer .container {
 
   nav > ul > li > a {
     color: rgb(100, 116, 139);
+  }
+
+  .description-section .container {
+    flex-direction: row;
+    text-align: start;
+  }
+
+  .description-section .container .inner-container {
+    width: 50%;
+    margin-bottom: 0;
+  }
+
+  .description-section .container .inner-container .btn {
+    padding-inline: 2.5rem;
+    margin-bottom: 0;
+  }
+
+  .img-container {
+    width: 300px;
+    height: 300px;
   }
 }
