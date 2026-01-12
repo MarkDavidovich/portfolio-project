@@ -6,7 +6,6 @@
 
 container {
   border: solid;
-  height: 200px;
   max-width: 1200px;
   margin-inline: auto;
 }
