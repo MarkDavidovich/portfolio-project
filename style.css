@@ -60,6 +60,7 @@ nav ul {
   display: flex;
   position: absolute;
   justify-content: center;
+  /* padding: 1.5rem; */
   align-items: center;
   left: 0;
   top: 4rem;
@@ -68,5 +69,6 @@ nav ul {
 }
 
 nav > ul > li {
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 1rem;
+  cursor: pointer;
 }
