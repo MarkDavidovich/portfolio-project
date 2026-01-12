@@ -347,6 +347,21 @@ footer .container {
 }
 
 @media (min-width: 900px) {
-  .container {
+  h1,
+  h2,
+  h3 {
+    text-align: start;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  .hamburger-container svg {
+    display: none;
+  }
+
+  nav > ul > li > a {
+    color: rgb(100, 116, 139);
   }
 }
