@@ -251,7 +251,12 @@ section {
 .contact-section .container {
   display: flex;
   flex-direction: column;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
+}
+
+.contact-section > h1 {
+  text-align: center;
+  padding-top: 3rem;
 }
 
 .contact-section .container .inner-container {
@@ -307,7 +312,7 @@ textarea {
   margin-top: 0;
   flex-direction: row;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .contact-info-container .inner-container a {
@@ -414,5 +419,38 @@ footer .container {
   .project-item {
     width: calc(100% / 3);
     margin-bottom: 0;
+  }
+
+  .contact-section .container {
+    flex-direction: row;
+    padding-top: 0;
+    padding-bottom: 3rem;
+    gap: 6rem;
+  }
+
+  .contact-section .container .inner-container {
+    width: 100%;
+  }
+
+  .contact-info-container {
+    margin-top: 3rem;
+    width: 40%;
+  }
+
+  .contact-info-container > .inner-container:first-of-type {
+    width: 100%;
+    margin-top: 2rem;
+    align-items: start;
+  }
+
+  .form-container .btn {
+    width: 20%;
+    padding: 0.8rem;
+  }
+
+  .contact-info-container > .inner-container:last-of-type {
+    width: 100%;
+    align-items: start;
+    justify-content: start;
   }
 }
