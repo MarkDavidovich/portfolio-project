@@ -102,6 +102,15 @@ nav > ul > li {
   margin-bottom: 1rem;
 }
 
+.inner-container h1,
+.inner-container h2 {
+  color: rgb(30, 41, 59);
+}
+
+.inner-container h3 {
+  color: rgb(100, 116, 139);
+}
+
 .inner-container > * {
   margin-bottom: 1rem;
 }
@@ -112,8 +121,52 @@ nav > ul > li {
   margin: auto;
 }
 
-.img-container > img {
+.img-container img {
   width: 100%;
   object-fit: contain;
   border-radius: 50%;
+}
+
+.about-me-section .container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about-me-section .container .inner-container:first-child {
+  margin-bottom: 0;
+  padding-bottom: 3rem;
+}
+
+.about-me-section .container .inner-container:last-child {
+  margin-bottom: 0;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0;
+}
+
+.skill-item {
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress-bar {
+  place-self: center;
+  width: 25%;
+  height: 0.5rem;
+  background-color: rgb(226, 232, 240);
+  border-radius: 2rem;
+}
+
+.progress-fill {
+  background-color: rgb(36, 99, 235);
+  width: 10%;
+  height: 0.5rem;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
 }
