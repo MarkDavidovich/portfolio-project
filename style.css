@@ -15,7 +15,7 @@ body {
 .container {
   max-width: 1400px;
   margin-inline: auto;
-  padding: 1rem 2rem;
+  padding: 3rem 2rem;
 }
 
 header {
@@ -30,6 +30,8 @@ header .container {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  /* override .container vertical padding */
+  padding-block: 1rem;
 }
 
 header h2 {
@@ -71,4 +73,47 @@ nav ul {
 nav > ul > li {
   padding: 1.5rem 1rem;
   cursor: pointer;
+}
+
+.description-section {
+  background-color: rgb(242, 245, 248);
+}
+
+.description-section .container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.btn {
+  background-color: rgb(36, 99, 235);
+  display: inline-block;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: rgb(24, 65, 209);
+}
+
+.inner-container {
+  margin-bottom: 1rem;
+}
+
+.inner-container > * {
+  margin-bottom: 1rem;
+}
+
+.img-container {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+
+.img-container > img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 50%;
 }
