@@ -237,6 +237,7 @@ section {
 .contact-section .container {
   display: flex;
   flex-direction: column;
+  padding-bottom: 1rem;
 }
 
 .contact-section .container .inner-container {
@@ -322,4 +323,15 @@ textarea {
   transform: scale(1.1);
   background-color: rgb(24, 65, 209);
   cursor: pointer;
+}
+
+footer {
+  background-color: rgb(30, 41, 59);
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+
+footer .container {
+  padding: 2rem 1rem;
 }
